@@ -7,7 +7,7 @@ import socket
 HOST = 'localhost'
 PORT_HTTP = 80
 BUFSIZE = 1024
-PATH = '/hello2.html'
+PATH = '/summary.html'
 
 class MainWindow(QMainWindow):
     def __init__(self, page):

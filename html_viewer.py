@@ -17,7 +17,7 @@ class MainWindow(QMainWindow):
 
 app = QApplication(sys.argv)
 
-r = requests.get('http://localhost:80/hello.html')
+r = requests.get('http://localhost:80/summary.html')
 
 window = MainWindow(r.content.decode())
 window.show()
